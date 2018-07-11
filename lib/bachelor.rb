@@ -59,7 +59,7 @@ def get_average_age_for_season(data, season)
     contestants.each do |attribute, parameter|
       if attribute == "age"
         count += 1 
-        age += v.to_f 
+        age += parameter.to_f 
       end 
     end 
   end 
